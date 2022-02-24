@@ -1,0 +1,169 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: Stolzl-Medium;
+  src: url(../fonts/Stolzl-Medium.woff);
+}
+
+@font-face {
+  font-family: Stolzl-Regular;
+  src: url(../fonts/Stolzl-Regular.woff);
+}
+
+body {
+  font-family: Stolzl-Regular;
+  font-size: 14px;
+  background: linear-gradient(269.85deg, #fcfaf7 56.99%, #f4f2ed 101.12%);
+}
+
+.navbar {
+  display: flex;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav_brand {
+  font-family: Stolzl-Medium;
+  font-size: 2em;
+}
+
+.navbar .nav_brand span {
+  color: #44a58a;
+}
+
+.nav_menu .nav_list {
+  display: flex;
+}
+
+.nav_menu .nav_list .nav_item {
+  margin-left: 2rem;
+}
+
+.nav_menu .nav_list a {
+  color: black;
+}
+
+.nav_register {
+  border-radius: 37px;
+  border: 3px solid #d9d9d9;
+  padding: 0.5rem 1rem;
+}
+
+.nav_register a {
+  color: black;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  margin: 0 10rem;
+  flex: row;
+}
+
+.hero .content {
+  margin-top: 2rem;
+}
+
+.hero .content h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.hero .content h1 span {
+  color: #44a58a;
+}
+
+.hero .content .desc {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #8f8f8f;
+  max-width: 50%;
+  margin-top: 1rem;
+}
+
+.hero_button {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.hero_button a {
+  color: black;
+}
+
+.hero_button .trial {
+  color: white;
+  padding: 1rem 1.2rem;
+  background-color: #44a58a;
+  border-radius: 40px;
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+.hero_button .icon {
+  font-size: 20px;
+}
+
+.scroll-down {
+  margin-top: 3rem;
+  font-size: 18px;
+}
+
+.mascot .man img {
+  height: 420px;
+}
+
+.mascot .rectangle {
+  position: absolute;
+  width: 370.42px;
+  height: 288.34px;
+  left: 628.66px;
+  top: 135.26px;
+  z-index: -1;
+
+  background: linear-gradient(180deg, rgba(63, 137, 117, 0.31) 0%, rgba(210, 200, 185, 0.31) 75.31%);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+  transform: matrix(1, -0.21, -0.01, 0.98, 0, 0);
+}
+
+.mascot .scope {
+  transform: scale(0.6);
+  position: absolute;
+  top: 250px;
+  right: 480px;
+}
+
+.mascot .vr {
+  transform: scale(0.6);
+  position: absolute;
+  top: 100px;
+  right: 180px;
+}
+
+.mascot .book {
+  transform: scale(0.6);
+  position: absolute;
+  top: 220px;
+  right: 150px;
+  z-index: -10;
+}
