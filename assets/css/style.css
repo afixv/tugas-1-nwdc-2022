@@ -25,20 +25,20 @@ ul {
 
 body {
   font-family: Stolzl-Regular;
-  font-size: 14px;
+  font-size: 16px;
   background: linear-gradient(269.85deg, #fcfaf7 56.99%, #f4f2ed 101.12%);
 }
 
 .navbar {
   display: flex;
-  padding: 2rem 10rem;
+  padding: 3rem 12rem 0;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar .nav_brand {
   font-family: Stolzl-Medium;
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 .navbar .nav_brand span {
@@ -70,18 +70,18 @@ body {
 /* Hero */
 .hero {
   display: flex;
-  margin: 0 10rem;
+  margin: 0 12rem;
   flex: row;
 }
 
 .hero .content {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .hero .content h1 {
   font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 80px;
+  line-height: 85px;
 }
 
 .hero .content h1 span {
@@ -89,12 +89,12 @@ body {
 }
 
 .hero .content .desc {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #8f8f8f;
-  max-width: 50%;
-  margin-top: 1rem;
+  max-width: 60%;
+  margin-top: 2rem;
 }
 
 .hero_button {
@@ -122,20 +122,24 @@ body {
 }
 
 .scroll-down {
-  margin-top: 3rem;
-  font-size: 18px;
+  margin-top: 4rem;
+  font-size: 24px;
+}
+
+.mascot {
+  margin-top: 1rem;
 }
 
 .mascot .man img {
-  height: 420px;
+  height: 550px;
 }
 
 .mascot .rectangle {
   position: absolute;
-  width: 370.42px;
-  height: 288.34px;
-  left: 628.66px;
-  top: 135.26px;
+  width: 470.42px;
+  height: 388.34px;
+  left: 778.66px;
+  top: 155.26px;
   z-index: -1;
 
   background: linear-gradient(180deg, rgba(63, 137, 117, 0.31) 0%, rgba(210, 200, 185, 0.31) 75.31%);
@@ -147,23 +151,23 @@ body {
 }
 
 .mascot .scope {
-  transform: scale(0.6);
+  transform: scale(0.8);
   position: absolute;
-  top: 250px;
-  right: 480px;
+  top: 300px;
+  right: 650px;
 }
 
 .mascot .vr {
-  transform: scale(0.6);
+  transform: scale(0.8);
   position: absolute;
   top: 100px;
-  right: 180px;
+  right: 210px;
 }
 
 .mascot .book {
-  transform: scale(0.6);
+  transform: scale(0.8);
   position: absolute;
-  top: 220px;
-  right: 150px;
+  top: 250px;
+  right: 180px;
   z-index: -10;
 }
